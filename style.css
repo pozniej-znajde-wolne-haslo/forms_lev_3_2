@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62,5%;
+}
+
+body {
+    font-size: 1rem;
+}
+
+.flexcontainer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#1c272c;
+    padding: 1.5rem;
+    width: 30rem;
+    margin: auto;
+    margin-top: 5rem
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin-top: 1rem;
+    margin: auto;
+}
+
+.links div {
+    width: 50%;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 2rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.links:hover {
+    background-color: #979f97;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #fff;
+    margin: 2.5rem auto 2rem auto;
+    text-align: center;
+}
+
+form input {
+    margin: 1rem 0 1rem 0;
+    background-color: #1c272c;
+    color: rgb(231, 222, 222);
+    line-height: 3;
+    font-size: 1.3rem;
+    padding-left: 1rem;
+    width: 100%;
+}
+
+.narrow_input {
+    display: flex;
+    gap: .5rem;
+}
+
+input::placeholder {
+    color: rgb(222, 213, 213);
+}
+
+.forgot_password {
+    text-decoration: underline;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    color: #63c47e;
+    margin: 2rem .5rem 1rem 0;
+}
+
+.button {
+    width: 100%;
+    background-color: #63c47e;
+    padding: 1.5rem 0rem;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.button:hover {
+    background-color: #979f97;
+}
+
